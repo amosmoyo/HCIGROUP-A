@@ -29,7 +29,7 @@ export class OrderItemsComponent implements OnInit {
 
   onSubmit(userdata:any){
 
-    this.cartService.clearCart();
+    this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
   }
 
