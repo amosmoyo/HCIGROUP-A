@@ -1,17 +1,26 @@
-<h2>
-    Product Details
-</h2>
-
-<div *ngIf="product">
-    <h3>
-        <a [title]="product.name + 'this is the letest version'">
-          {{product.name}}
-        </a>
-    </h3>
-    <h4>
-        {{product.price | currency }}
-    </h4>
-    <p>Description:{{product.description}}</p>
-
-    <button (click)="addToCart(product)">Order Option</button>
+<div class="container">
+    <h2>
+        Product Details
+    </h2>
+    
+    <div *ngIf="product">
+        <img [src]="product.imageUrl" class="image"/>
+        <h3>
+            <a [title]="product.name + 'this is the letest version'">
+              {{product.name}}
+            </a>
+        </h3>
+        <p>{{product.description}}</p>
+        <h4>
+            {{product.price | currency }}
+        </h4>
+        <div>
+            <h3>Main Features</h3>
+            <p>
+                {{product.details}}
+            </p>
+        </div>
+    
+        <button (click)="addToCart(product)">Add To CROMO Cart</button>
+    </div>
 </div>

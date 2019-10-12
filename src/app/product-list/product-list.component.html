@@ -1,14 +1,34 @@
-<p>product-list works!</p>
-
-<div *ngFor="let product of products; index as productId">
-    <h3>
-      <a [title]="product.name + 'this is the letest version'" [routerLink]="['/products',productId]">
-        {{product.name}}
-      </a>
-    </h3>
-    <p>Description:{{product.description}}</p>
-    <button (click)="share()">Share</button>
-
-    <app-product-alerts [product]="product" (notify)="onNotify($event)"></app-product-alerts>
- </div>
+<div class="container">
+  <div class="main">
+    <div class="icon">
+      <span>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </span>
+      <span class="store">
+        Welcome to our store!!!
+      </span>
+      <div class="store-list">
+          <h2>
+            Products In Our The Store
+          </h2>
+        </div>  
+    </div>
+    <div *ngFor="let product of products; index as productId" class="productthumbnail">
+        <h3 class="thumbchild">
+          <a [title]="product.name + 'this is the letest version'" [routerLink]="['/products',productId]">
+            {{product.name}}
+          </a>
+        </h3>
+        <p class="thumbchild">Description:{{product.description}}</p>
+        <div class="row thumbchild">
+          <div class="col-sm-6 col-xs-3">
+            <button (click)="share()">Share</button>
+          </div>
+          <div class="col-sm-6 col-xs-2">
+            <app-product-alerts [product]="product" (notify)="onNotify($event)"></app-product-alerts>
+          </div>
+        </div>
+    </div>
+  </div> 
+</div>
  

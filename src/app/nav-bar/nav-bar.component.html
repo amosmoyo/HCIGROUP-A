@@ -1,5 +1,23 @@
-<a [routerLink]="['/']">
-    <h1>My Store</h1>
-  </a>
-  
-  <a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+<div class="header">
+   <div class="sub-header">
+        <div>
+          <div>
+            <h1 id="title">
+              CROMO-ELECTRONIC STORE
+            </h1>
+          </div>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+              <div>
+                <a [routerLink]="['/']">
+                  <h1 class="home">Home</h1>
+                </a>
+              </div>
+              <div>
+                <a [routerLink]="['/cart']" class="button fancy-button">Checkout</a>
+              </div>
+            </div>  
+        </nav>
+   </div>
+</div>

@@ -1,24 +1,26 @@
-<p>order-items works!</p>
+<div class="container">
+    <div class="delivery">
+        <h2>
+            <a routerLink="/shipping">Delivary Service</a>
+        </h2>
+    </div>
 
-<div>
-    <a routerLink="/shipping">Delivary Service</a>
-</div>
+    <div *ngFor="let item of items" class="cart-item">
+        <span>{{item.name}}</span>
+        <span>{{item.price | currency}}</span>
+    </div>
 
-<div *ngFor="let item of items">
-    <span>{{item.name}}</span>
-    <span>{{item.price | currency}}</span>
-</div>
-
-<div>
-    <form [formGroup]="checkoutForm" (ngSubmit)="checkoutForm.value">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" formControlName="name">
-        </div>
-        <div>
-            <label for="address">Address</label>
-            <input type="text" id="address" formControlName="address">
-        </div>
-        <input type="submit" class="btn btn-primary">
-    </form>
+    <div>
+        <form [formGroup]="checkoutForm" (ngSubmit)="checkoutForm.value">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" formControlName="name">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" formControlName="address">
+            </div>
+            <input type="submit" class="btn btn-primary">
+        </form>
+    </div>
 </div>
