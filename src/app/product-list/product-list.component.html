@@ -11,13 +11,13 @@
           <h2>
             Products In Our The Store
           </h2>
-          <img src={{products.imageUrl}}>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos!
           </p>
       </div>  
     </div>
     <div *ngFor="let product of products; index as productId" class="productthumbnail">
+        <img src={{product.imageUrl}}>
         <h3 class="thumbchild">
           <a [title]="product.name + 'this is the letest version'" [routerLink]="['/products',productId]">
             {{product.name}}
