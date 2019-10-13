@@ -6,8 +6,8 @@ export const products = [
       details:`Get the incredible HOT 7 x624 at CROMO-Eletronic Store! The 6.2-inch HD+ IPS LCD 
       capacitive touchscreen offers Infinix users the Full View experience.
        Boasting of 720 x 1500 pixels in resolution. It runs on Android V8.1 Oreo operating system with 1.3 Ghz Quad Core Cortex-A7 processor and MT6580P chipset. The main camera of Infinix Hot 7 is 13 MP, and front selfie camera is 8 MP. It has 16GB Built-in storage and 1GB RAM. Order 
-      for this HOT 7 online at Jumia Kenya and have it delivered right at your doorstep.`,
-      imageUrl:'assets/images/hot-7.jpg'
+      for this HOT 7 CROMO-Eletronic Store and have it delivered right at your doorstep.`,
+      imageUrl:'https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot7-1.jpg'
     },
     {
       name: 'Tecno Spark 3 (KB7)',
