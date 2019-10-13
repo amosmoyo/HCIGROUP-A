@@ -17,7 +17,7 @@ export const products = [
        Helio A22 chipset, 8 MP selfie camera, 13 MP + 2 MP dual rear camera, 2 GB RAM, 
        16 GB internal memory, and a 3500 mAh battery. Order for this TECNO Spark 3 smartphone online
        from CROMO-Eletronic Store and have it delivered to you.`,
-      imageUrl:'/assets/images/spark3.jpg'
+      imageUrl:'assets/images/spark3.jpg'
     },
     {
       name: 'Gionee M6 Plus',

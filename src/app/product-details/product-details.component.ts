@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   addToCart(product){
-    window.alert('the items have been add');
+    window.alert('The product have been added to CROMO Cart. You can Successful Checkout Now');
      this.cartService.addToCart(product)
   }
 }
