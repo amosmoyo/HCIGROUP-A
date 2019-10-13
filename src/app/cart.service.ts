@@ -24,6 +24,6 @@ export class CartService {
   }
 
   shipping(){
-    return this.http.get("/assets/shipping.json");
+    return this.http.get("assets/shipping.json");
   }
 }
