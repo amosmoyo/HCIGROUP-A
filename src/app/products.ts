@@ -7,7 +7,7 @@ export const products = [
       capacitive touchscreen offers Infinix users the Full View experience.
        Boasting of 720 x 1500 pixels in resolution. It runs on Android V8.1 Oreo operating system with 1.3 Ghz Quad Core Cortex-A7 processor and MT6580P chipset. The main camera of Infinix Hot 7 is 13 MP, and front selfie camera is 8 MP. It has 16GB Built-in storage and 1GB RAM. Order 
       for this HOT 7 online at Jumia Kenya and have it delivered right at your doorstep.`,
-      imageUrl:'/assets/images/hot-7.jpg'
+      imageUrl:'assets/images/hot-7.jpg'
     },
     {
       name: 'Tecno Spark 3 (KB7)',
@@ -28,7 +28,7 @@ export const products = [
        to be used. The measured M6 plus can talk for 55 hours in a row, the video can be played continuously 
        for 16.4 hours,
        and the measured standby is 794 hours. The M6 Plus is equipped with an amazing 6020mAh polymer battery.`,
-      imageUrl:'/assets/images/gionee.jpg'
+      imageUrl:'assets/images/gionee.jpg'
     },
     {
       name: 'Samsung Galaxy A10S',
@@ -44,7 +44,7 @@ export const products = [
       when catching up on your favorite content, and with the addition of a fingerprint scanner to the Galaxy
       A10s, you can be sure to keep your data safe. Place your order for this amazing product from CROMO-Eletronic Store
       and have it delivered to your doorstep at an amazing price`,
-      imageUrl:'/assets/images/samsung.jpg'
+      imageUrl:'assets/images/samsung.jpg'
     },
     {
       name: 'Tecno Pouvoir 3 (LB7)',
@@ -55,6 +55,6 @@ export const products = [
         which displays quality visuals. The phone comes with a 13MP rear camera and an 13MP selfie shooter. It has
        32GB of internal storage and 2GB of RAM.
        Order for this Tecno Pouvior 3 online from CROMO-Eletronic Store and have it delivered to your doorstep.`,
-      imageUrl:'/assets/images/Pouvoir.jpg'
+      imageUrl:'assets/images/Pouvoir.jpg'
     }
   ];
